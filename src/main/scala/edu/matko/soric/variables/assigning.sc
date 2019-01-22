@@ -12,11 +12,18 @@ val averageSleepingHour :Float,
 val pregnant :Boolean) {}
 
 
-// variable with initial value
-val name :String = "matko"
-var surname :String = "sorić"
+// initializing variables
+val name :String = "Matko"
+var surname :String = "Sorić"
 
-// multiple assignments
+// val is immutable
+//name = "John"   // does not compile
+
+// var is mutable
+surname = "Wayne"
+
+
+// simultaneous assignments
 val (city :String, yearOfBirth :Int) = Pair("Berlin", 1995)
 print(city)
 print(yearOfBirth)
