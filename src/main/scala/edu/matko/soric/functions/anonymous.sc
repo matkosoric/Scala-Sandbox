@@ -1,6 +1,3 @@
-import scala.collection.JavaConversions._
-
-
 // anonymous functions do not have a name
 // in the workbook they are represented with input and output types
 
