@@ -31,3 +31,14 @@ else if (horseAvailable)
 // nested if statements
 // all conditions have to be satisfied to reach the most inner block
 
+val foodOnTheTable = false
+val foodInTheFridge = false
+val foodFromDeliveryService = false
+
+if (!foodOnTheTable) {
+  if (!foodInTheFridge) {
+    if (!foodFromDeliveryService) {
+      print ("I am hungry! ")
+    }
+  }
+}
