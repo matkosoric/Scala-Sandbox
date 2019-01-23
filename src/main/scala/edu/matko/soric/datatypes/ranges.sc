@@ -44,9 +44,9 @@ val temperature1 = 3.3F
 val temperature2 :Float = 3.3f
 val temperature3 = 3.3D
 val temperature4 = 3.3d
-val temperature5 = 3.3
-val temperature6 = 3.39827349872389498273429398723947929237498237992374982
-val temperature7 = 3.39827349872389498273429398723947929237498237992374982F
+val temperature5 = 3.3                                                          // implicit Float
+val temperature6 = 3.39827349872389498273429398723947929237498237992374982      // notice the limit in output
+val temperature7 = 3.39827349872389498273429398723947929237498237992374982F     // notice the limit in output
 
 // various ways of assigning value for a letter a
 val alpha1 = 'a'
