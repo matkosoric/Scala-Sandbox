@@ -33,3 +33,11 @@ funnyAnecdote.compareToIgnoreCase("A census taker once tried to test me. I ate h
 // concat() merges two strings, just like plus operator
 "A census taker once tried to test me. ".concat("I ate his liver with some fava beans and a nice Chianti.")
 "A census taker once tried to test me. " + "I ate his liver with some fava beans and a nice Chianti."
+
+// contains() method checks for argument presence and returns boolean
+funnyAnecdote.contains("Chianti")
+funnyAnecdote.contains("Cabernet sauvignon")
+
+// ends () method checks sufix of a string for argument
+funnyAnecdote.contains("Chianti.")
+funnyAnecdote.contains("Cabernet sauvignon.")
