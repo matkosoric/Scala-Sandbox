@@ -15,6 +15,9 @@ funnyAnecdote.chars().summaryStatistics()
 // getBytes() also returns ASCII codes, but as an array of byte codes
 funnyAnecdote.getBytes()
 
+// toCharArray() method returns characters as they are
+funnyAnecdote.toCharArray()
+
 // codePointAt returns ASCII code for specified index
 funnyAnecdote.codePointAt(0)
 funnyAnecdote.codePointAt(10)
@@ -49,6 +52,11 @@ funnyAnecdote.compareToIgnoreCase("A census taker once tried to test me. I ate h
 funnyAnecdote.contains("Chianti")
 funnyAnecdote.contains("Cabernet sauvignon")
 
+// startsWith() method return boolean depending on the match between argument and string prefix
+print ("startsWith() method:")
+funnyAnecdote.startsWith("A census taker")
+funnyAnecdote.startsWith("I ate his liver")
+
 // ends () method checks sufix of a string for argument
 funnyAnecdote.endsWith("Chianti.")
 funnyAnecdote.endsWith("Cabernet sauvignon.")
@@ -63,6 +71,7 @@ funnyAnecdote.intern()
 "Pinot noir".intern()
 
 // isEmpty() method checks is there anything in the string
+print("empty strings:")
 funnyAnecdote.isEmpty()
 "".isEmpty()
 
@@ -79,4 +88,39 @@ funnyAnecdote.matches(".*liver$")
 funnyAnecdote.offsetByCodePoints(5, 3)
 funnyAnecdote.offsetByCodePoints(5, -3)
 
+// regionMatches() compares two strings for matching substrings, with provided offset in the first string,
+// followed by the second string, its offset, and number of characters to compare
+print("comparing  \"census taker\" substring:")
+funnyAnecdote.regionMatches(2, "census taker is someone who collects census data by visiting individual homes. ", 0, 12)
+funnyAnecdote.regionMatches(3, "census taker is someone who collects census data by visiting individual homes. ", 0, 12)
 
+// replace() method simply replaces occurrence of a specified string
+funnyAnecdote.replace("Chianti", "Sauvignon blanc")
+funnyAnecdote.replace('a', 'q')
+
+// replaceAll() method is intended to be used with regex
+funnyAnecdote.replaceAll(" t", " w")
+// replaceFirst() replaces only first occurrence of a pattern
+funnyAnecdote.replaceFirst(" t", " w")
+
+// split() method breaks string into an array of substring by the provided breaking point
+funnyAnecdote.split("\\.")
+funnyAnecdote.split(" ")
+
+// subSequence returns
+funnyAnecdote.subSequence(54,64)
+
+
+// substring() method returns part of the original string, starting from provided index
+// second argument is optional. without it, end of the original string is also the end of the returning string
+funnyAnecdote.substring(54)
+funnyAnecdote.substring(64, 74)
+
+// toUpperCase() method returns original string in uppercase
+funnyAnecdote.toUpperCase()
+
+// toLowerCase() method returns original string in lowercase
+funnyAnecdote.toLowerCase()
+
+// trim() method returns original string without leading or trailing whitespaces
+"    a nice Chianti     ".trim()
