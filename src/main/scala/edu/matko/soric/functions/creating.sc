@@ -8,7 +8,7 @@ squareThisNUmber(5)
 squareThisNUmber(11)
 
 
-def divideTheseNumbers(firstNummber: Int, secondNumber :Int): Double = firstNummber / secondNumber
+def divideTheseNumbers(firstNumber: Int, secondNumber :Int): Double = firstNumber / secondNumber
 divideTheseNumbers(100, 5)
 
 
