@@ -15,8 +15,8 @@ println(hawking._7)
 
 // tuple can be broken to building elements with pattern matching
 val (firstName, middleName, lastName, birthYear, deathYear, thesisTitle, thesisYear ) = hawking
-println(firstName)
-println(thesisTitle)
+println("First name: " + firstName)
+println("Thesis: " + thesisTitle)
 
 
 // token -> creates 2-tuple
