@@ -17,7 +17,7 @@ object doWhileLoop {
     print("\n")
     // this will still print year once, since block is executed at least once,
     // despite the fact that it is intended to print only years smaller than 1980.
-    // in this case, do loop would be a proper choice
+    // in this case, while loop would be a proper choice
 
     do {
       println("Current year: " + year)
